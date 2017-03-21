@@ -1,0 +1,11 @@
+
+PROJECT WINDOWS INSTALLATION
+
+This project is to add installing a secure Windows OS.
+
+01)Install Windows with custom settings of disabling all express settings disabled.
+02)Remove of Windows apps including OneDrive.
+03)Block Microsoft telemetry IP addresses.
+04)Configure security apps and settings.
+05)Set up BitLocker FDE.
+

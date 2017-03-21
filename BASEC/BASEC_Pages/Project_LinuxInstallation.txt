@@ -1,0 +1,12 @@
+
+PROJECT LINUX INSTALLATION
+
+This project is to install a secure Linux OS.
+
+01)Edit partition table.
+   a)Create /tmp partition.
+   b)Create swap partition.
+   c)Create /home partition if wanted.
+02)Install Linux with FDE.
+03)Run BASEC scripts, excluding Machamp.
+

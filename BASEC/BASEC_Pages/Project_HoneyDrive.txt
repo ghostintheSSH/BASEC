@@ -1,0 +1,11 @@
+
+PROJECT HONEYDRIVE
+ 
+1)Use separate drive to act as honeypot. Laptops with only one drive bay is still possible with replacing obsolete disk drive with removable storage drive bay and storage drive. PROJECT HONEYDRIVE is NOT possible on ultrabooks with only one storage drive and no disk drive. PROJECT HONEYDRIVE is useless if FDE is not used and honeydrive is on the same drive as the primary OS.
+2)Keep system and security settings within honeypot at default.
+3)Create and implement fake identity with user account.
+4)Follow diagram for filling commonly-used folders with junk data.
+5)Install software: keylogger, stealthy webcam recorder, and GPS locator. DO NOT RECORD AUDIO.
+6)Install and configure means of syncing Step 5 data to security server, a phone, or user account.
+
+

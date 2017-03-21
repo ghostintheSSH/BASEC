@@ -1,0 +1,9 @@
+----------------------------------------------------------------------
+ABOUT BOOK
+----------------------------------------------------------------------
+This is a prototype guide. It has a long way to go before being released outside UAT. BASEC is based off of Incognito Toolkit, parts of How to Disappear, CyberPunk’s System Hardening Guide, Gibson Research Corporation’s ShieldsUP!, and my own personal experiences, research, ideas, and scripts. There are myriad more sources that were scheduled to be added to BASEC but have not been included yet and will not for some time. I would not call this guide my most fluid and concise work since the larger BASEC gets the harder it is to manage it. It would take months to expand and polish it.
+BASEC is an interactive guidebook, or small collection of scripts, created for those new to cyber security and / or Linux. The scripts are coded for Ubuntu / Debian, but many of the commands can be altered for other *nix systems. The purpose of BASEC is to teach basic defensive security measures users can take whether pertaining to NETSEC, SYSSEC, or PERSEC and to help ensure those measures are applied. Not everyone has an easy time with a foreign distro or OS architecture they’ve never interacted with, thus BASEC is more than a guidebook in a PDF. The secondary scripts are meant to help establish a secure, hardened system with relative ease. Excluding PERSEC, the NETSEC and SYSSEC chapters utilize the secondary scripts. 
+BASEC will display photos relevant to each page. The three chapters will converge on some topics. PERSEC is a light chapter in comparison since PERSEC is discussed throughout the guide. It’s the most important element of securing yourself. 
+
+----------------------------------------------------------------------
+

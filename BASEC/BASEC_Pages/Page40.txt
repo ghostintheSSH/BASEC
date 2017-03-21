@@ -1,0 +1,47 @@
+----------------------------------------------------------------------
+ANDROID
+----------------------------------------------------------------------
+Android is your only decent option for a secure smartphone that has a lot of support. Otherwise, I would recommend Black Phone, Turing Phone, and Replicant over Android, even though I haven’t used the former two. Android can be made to be mostly secure, especially if you use the Nexus line and not the Samsung line of products. The good news is that there are numerous ways to keep your phone secure and that most security issues are just like PC security issues: the user. The amount of layers of security you have to bypass to infect an Android phone is quite a few. One such issue is the use of apps outside the Play Store. Unfortunately, this means maintaining a Google account. I have a Google account still that I’m trying to kill off. However, I still use Android and since most app platforms are lackluster in comparison to the Play Store, I have an encrypted email account set with a new Google account where everything that can be stripped is stripped. My only means of purchasing the recommended security apps is via gift cards. Keep your use of Google services to a minimum, follow the security settings, and experiment with a few apps. You’re first going to want to root and unlock the phone. There’s plenty of videos and tutorials out there for many Android phones so finding one that works shouldn’t be an issue.
+
+SETTINGS -------------------------------------------------------------
+•If you have an unlimited plan, disengage Wi-Fi.
+•If you have a PC, disengage Wi-Fi. Your phone isn’t as secure as your PC.
+•Unless in use, disengage Bluetooth.
+•Alter sleep mode based on how long you generally use your phone. I have mine set to go to sleep after being idle for 2 minutes.
+•Filter your notifications from the lockscreen.
+•Use a 16-character password.
+•Do not engage Quick unlock. If you do, don’t use it around prying eyes.
+•Set the power button to instantly lock and make a habit of manually locking your phone.
+•Encrypt your phone.
+•Leave ‘unknown sources’ disabled unless needed. Make sure you know where the APK came from before installing it.
+•Set up screen pinning with password.
+•Enable Privacy Guard by default. Go through and toggle the app permissions. Each one varies on use, but I usually disable most. Disabling GPS for Google Maps means it can’t locate you and disabling camera access to a camera app means you can’t use it.
+•Disable GPS by default.
+•Set up developer options by clicking ‘Build Number’ multiple times in a row.
+•Enable Advanced reboot if you access your recovery often and / or want more reboot controls.
+•Leave Android debugging disabled by default unless in use. A powered-on phone with USB debugging enabled can have its security bypassed by plugging it into a PC.
+•Set up mock locations for extra GPS security. When you need GPS, you need to disable this feature.
+•Add the back button as an app killswitch.
+
+APPS -----------------------------------------------------------------
+There’s a few apps I use that have proven very useful, most of which I would recommend and others of which are overkill. An example would be my use of three adblocking apps when one should suffice. 
+•AFWall+ (root-required; app firewall)
+•CCleaner (like CCleaner for Windows or Bleachbit; root-required for system app management)
+•Crypt4All (AES Crypt for Android)
+•ES File Explorer (root-required for access outside SD card; best and very versatile Android file explorer)
+•F-Droid (trustworthy app repo for privacy and security apps)
+•Obscuracam (EXIF-removing and face-blurring camera app)
+•Security Settings (necessary security app for changing Android security settings with Tasker)
+•Signal (encrypted text messaging and calling app)
+•StickMount (USB-mounting app)
+•SuperSU (management app for apps with root permissions)
+•Sync (BitTorrent Sync “cloud” service)
+•Tasker (automation app like Cron for Android)
+•Titanium Back-up (app, app data, and system data backing up app)
+•Trigger (lightweight, Tasker alternative with better NFC support)
+•Yubico Authenticator (for using Yubikey Neo with phone for 2FA)
+
+You can’t have your phone encrypted and requiring password on boot-up before decrypting if you want to use Tasker for security purposes. It’s a trade-off and one that isn’t great, but I made the choice to support Tasker since I use my own 2FA profile. I have Smart Lock set up to recognize my Yubikey and unlock the phone. However, this always opens up Yubico Authenticator. I’ve added an app lock to it for dual security and set Tasker to launch it when unlocked by entering the password instead. Thieves will either have to have the Yubikey and know the 8-digit pin or know the 16-character password and the 8-digit pin. I’ve also set Tasker to take a photo of anyone that enters a wrong password. Unfortunately, the thief must enter at least 4 characters for Android to register this as a failed attempt and not just an accidental unlock as if in someone’s pocket. Switching to Signal breaks SMS features with Tasker so it’s another trade-off. I use the email features instead. There’s a just a few examples of many that you can do with Tasker that makes Android even more secure than other mobile operating systems built for the general public.
+
+----------------------------------------------------------------------
+

@@ -1,0 +1,8 @@
+----------------------------------------------------------------------
+SYSSEC
+----------------------------------------------------------------------
+SYSSEC is system security. This is one of the most talked about forms of security, especially with anti-malware products. EMSEC has been dropped from this guide since it’s difficult for attackers to use side channel attacks against your CPU electromagnetic radiation within your proximity and since it’s as easy to thwart as purchasing a metal case for your desktop and metallic laptops. The best examples of BASEC-approved, metallic laptops are the Librem laptops by Purism. If you’re a Mac user, you’re already used to paying for overpriced hardware, but the Librem laptops are actually secure and Purism actually cares about security. Purism has partnered with independent hardware developers to build and compile hardware that respects the users’ privacy, security, and freedom without enabling, let alone building, spying features. I recommend it used with Qubes OS, especially as the system you use if public if you do so. Qubes OS will be covered later in this chapter under Other Linux. 
+Before we delve into operating systems, we first need to cover automation, maintenance, physical security, and anti-malware. There’s a lot to go over with operating systems, but you should make your choices based on as much as the tools used to ensure SYSSEC as the operating system themselves and the developers’ philosophies. System hardening can go a long way, but it’s a lot easier to do on *nix systems than the draconian Windows ecosystem. 
+
+----------------------------------------------------------------------
+

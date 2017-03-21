@@ -1,0 +1,20 @@
+
+PROJECT MOBILE
+
+PROJECT MOBILE is like PROJECT DEVICE PERSEC and BASEC combined since smartphones are the weakest vulnerability, excluding social media only by social networks. This project isn’t set with rules but an experimentation of the apps and settings based on the previously mentioned information. Some of the Tasker profiles and tasks depend on purchasing the Security Settings app:
+
+•Set CCleaner to notify user when it hasn’t been used in 24 hours.
+•Set Titanium Backup to back up modified apps, app data, and system data.
+•Set BitTorrent Sync to back up other, relevant phone data and Titanium back-ups to security server or whichever system.
+•Set Tasker to reboot phone daily.
+•Set AFwall+ to restrict most apps that need network connection to VPN.
+•Set AFWall+ to allow system apps and Google Play to use unencrypted mobile data. Otherwise, network capabilities break.
+•Set Tasker to kill VPN, place phone in airplane mode, wait 5 seconds, leave airplane mode, and restart VPN when mobile data connection is lost.
+•Set Tasker to act as app lock.
+•Set Tasker to active app lock profile and task when phone is rebooted. This is needed since the following task only works after the phone has been unlocked once after boot meaning the first session doesn’t engage the 2nd lock.
+•Set Tasker to active app lock profile and task when phone is unlocked.
+•Set Tasker to block camera, mic, and GPS by default.
+•Set Tasker to unlock camera when Obscuracam started.
+•Set Tasker to take photo of anyone that fails to unlock the phone.
+•Set Tasker to enable GPS and send geolocation data to security server or user account when it receives a specified text.
+

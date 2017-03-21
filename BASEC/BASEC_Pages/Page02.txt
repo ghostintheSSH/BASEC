@@ -1,0 +1,14 @@
+----------------------------------------------------------------------
+ABOUT AUTHOR
+----------------------------------------------------------------------
+ 
+SSH[ghost]
+
+I'm a coder with a passion for all things cyber security. I currently attend a private university for a Bachelor of Science degree in Network Security. I spend most of my time coding and testing well-known or newer security applications through stress testing and breaking. I also spend a good deal of time researching security applications, vulnerabilities, exploits, methods, concepts, past failures / successes of well-known "hackers," etc. I really like finding and breaking code and applications, if anything, to learn how it works and how it can be improved beyond the initial coders' intent.
+My main focuses in cyber security and security in general are personal security, digital reconnaissance, social engineering, skip tracing, penetration testing, forensic analysis, honeypot / net installation and management, data obfuscation, security management automation, and personal projects that lead toward fields I've yet to study. My previous education in psychology has becomevery useful and applicable to several of these fields. Every system’s biggest vulnerability is always PEBCAK. To clarify, my professional interests are making myself a ghost and finding those that failed to make themselves ghosts.
+Think contemporary Hans Landa meets the antics of Shawn Spencer. 
+My main coding interests are shell / bash, *nix commands, Ruby, and Python. I hope to add PHP next. My coding name is SSH[ghost] and it's pronounced as ghost in the secure shell.
+If I had to describe myself, I would say I am very analytical, an autodidactic philomath, and a high performer. Others have described me as creative, meticulous, extremely inquisitive, Devil's Advocate of all trades, and, as a friend puts it, "How do we kill that which has no life?" After all, I'm a ghost.
+
+----------------------------------------------------------------------
+

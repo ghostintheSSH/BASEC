@@ -1,0 +1,9 @@
+----------------------------------------------------------------------
+PERSEC
+----------------------------------------------------------------------
+PERSEC is personal security. This chapter of the guide has everything to do with you as a user. It’s the most important and often overlooked aspect of cyber security. You can secure your network and system to the point that it’s nearly impossible to break, but you still exist and you’re the one using the network and system. An attacker just has to target you to successfully penetrate your network and system. You’re a constant vulnerability. You can harden yourself, but you’ll always be a vulnerability. 
+This chapter is meant to get you thinking about how you manage your information and digital activities. It will try to help you better manage yourself, remain cognizant of your actions and surroundings, mitigate what information you release, and harden yourself. OPSEC has been dropped from the guide since its only relevance to security is keeping activities a secret between two or more parties and this guide is specifically made for the individual.
+PII = personally identifiable information. 
+
+----------------------------------------------------------------------
+

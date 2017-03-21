@@ -1,0 +1,17 @@
+----------------------------------------------------------------------
+ACCOUNT MAINTENANCE / PII REQUIREMENTS
+----------------------------------------------------------------------
+This page is a continuation from the previous. Incognito Toolkit suggests you save the Fake Name Generator information in LastPass. I recommend local with an office type doc. My recommendation will ALWAYS be local alternatives that don’t require Internet access. You have to put a lot of faith in the software developers that they’re software is both secure and benevolent. Unless you know reverse engineering, good luck. Simply trusting a 3rd party’s analysis is the same issue. Just remain aware and do your research. 
+You want to save the Fake Name Generator information so you have a solid lie. This book is made with the worst in mind that someone is attempting skip tracing and / or digital recon against you like a stalker. If they find several accounts linked together with separate PII, then it’s obvious that the real account owner is obfuscating their data. You should obfuscate that you’re obfuscating your data. That means lie about the lies you’re telling. Plus, in case you event want to access an account you created with the generated PII, it helps to know the fake data when you can’t login.
+
+BUGMENOT -------------------------------------------------------------
+For all accounts that require PII, I recommend using BugMeNot. It’s a site that shares login credentials of generated accounts so you don’t have to enter PII to join a service. The only downside is that major sites have banned BugMeNot access, which defeats the purpose for the most part. The vast majority of sites that don’t require authentic PII or PII verification don’t care if you lie. However, it’s a nice tool that allows you to access a site service without even having to use Fake Name Generator. You don’t even need to invest in burner phones or create temporary email accounts.
+
+ACCOUNT KILLER -------------------------------------------------------
+We were previously acting under the pretense that you wanted to create an account to use a service. What about when you no longer want to use the service and you want to delete your account? There’s usually a setting is account settings to do this, but that’s not always there and sometimes you have too many accounts you want to delete at once. It’s a repository of instructions and links to delete accounts for numerous, well-known services with ratings of difficulty for each service.
+
+JUSTDELETE.ME --------------------------------------------------------
+JustDelete.Me is an alternative to Account Killer with less support, same difficulty indicators, and includes a fake identity generator. This is a notable service is that it attempts to integrate and compete with Fake Name Generator and Account Killer. If you want one service that offers both, this is a somewhat decent choice. It’s also open-source with a GitHub project so anyone can make it their own. It has the potential to succeed both predecessors. 
+
+----------------------------------------------------------------------
+

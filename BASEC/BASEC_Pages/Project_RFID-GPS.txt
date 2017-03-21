@@ -1,0 +1,11 @@
+
+PROJECT RFID / GPS
+ 
+PROJECT HONEYDRIVE only works for dumb thieves that boot the system without removing the drives and placing the drives into a write-blocker. PROJECT RFID / GPS is a conceptual project for stopping smart thieves.
+
+01)Purchase 2 RFID chips, 1 GPS chip, and 1 GPS antenna. You’ll need equipment small enough to hide in the laptop. Use a box to conceal everything but the antenna for desktops. If metal case is used for either type, antenna needs to partially stick out to broadcast.
+02)Purchase electrical equipment: wire, switch, battery, solder, soldering iron, wire stripper, anti-static wristband, electrical tape, etc.
+03)Wire chips, battery, and switch together by the diagram. 
+04)Configure RFID chips to interact with each other. Set 2nd RFID chip on person. Set 1st RFID chip to activate switch when 2nd RFID chip leaves proximity.
+05)Set GPS chip to broadcast to security server, a phone, or user account.
+

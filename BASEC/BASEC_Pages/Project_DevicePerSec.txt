@@ -1,0 +1,16 @@
+
+PROJECT DEVICE PERSEC
+ 
+Qubes OS is the easiest alternative to this project, but if you’re new to Linux, you may want to put off testing Qubes OS until you have a decent amount of experience. It will be covered further in SYSSEC under Other Linux.
+01)Switch to a Linux host if it’s not already your host.
+02)Create a list of accounts and services you currently use.
+03)Categorize list of accounts and services by type. For example, Chase and Amazon are financial-related services and should be separated from Facebook and Twitter accounts.
+04)Download and set-up virtualization software.
+05)Create and configure VMs for each account and services category.
+06)Configure guest OS of VMs by diagram or own use.
+07)Create new, encrypted email addresses for each category.
+08)Separate previous accounts and services to new addresses. Never log onto accounts on a VM that isn’t the specific VM type.
+09)Delete accounts and services not separated and delete email account from which the other accounts were separated. For example, if a single Gmail account was used to house all account types and account types were separated to ProtonMail, then delete Gmail account once separation is completed.
+10)Create additional, secure VM for general browsing to keep data off of host.
+11)DO NOT LOG ONTO ACCOUNTS VIA HOST.
+

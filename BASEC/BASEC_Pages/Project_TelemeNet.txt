@@ -1,0 +1,14 @@
+
+PROJECT TELEMENET
+ 
+PROJECT TELEMENET is an advanced project to obfuscate geolocation data on public accounts others are aware exists. The goal is to make it difficult for attackers to commit digital reconnaissance against you and obtain your geolocation data when their user accounts' privacy settings fail and your VPNs are exploited (like NSA with WebRTC). This projects only works if you live in a large city, can make deals with local coffee shops to use their free Wi-Fi, and are using a small, reasonable amount of accounts. You really shouldn’t have any public account that others know exists like social media.
+
+01)Purchase multiple Rasberry Pis.
+02)Configure bots to use public, disposable accounts.
+03)Configure bots to mimic user behavior.
+04)Harden RPis.
+05)Set RPis on public networks. Make deals with network owners where applicable. For example, local coffee shops are willing if you give them your business.
+06)Hide RPis at locations using public networks. 
+07)Configure RPis to speak to central RPi so public accounts are traded to each other scrambling geolocation data and existence of RPis.
+08)Add own PC to TelemeNet if wanted. Not advised. Instead, I advise obtaining a Librem laptop for public use and checking the RPis remotely from a public network or visiting each location to check RPis manually.
+

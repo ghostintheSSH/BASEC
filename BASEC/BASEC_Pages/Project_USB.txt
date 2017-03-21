@@ -1,0 +1,6 @@
+
+PROJECT USB
+ 
+01)Purchase 3 UFDs and follow the examples on the left.
+02)Install a forensic, penetration testing, and privacy-based Linux distro on each. 
+

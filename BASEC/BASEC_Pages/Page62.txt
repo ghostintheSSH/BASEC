@@ -1,0 +1,7 @@
+----------------------------------------------------------------------
+FUTURE ADDITIONS
+----------------------------------------------------------------------
+BASEC has plans to evolve beyond its current prototype stage. Why keep it a script-system that could be a program? Why only explain how to secure a system post installation vs pre installation too? Why limit support only to Linux for system hardening? Why not elements that are intermediate or advanced beyond the current projects for users to advance even further? Projects are a great means of accomplishing security feats, many of which can be used to cover these very issues.
+
+----------------------------------------------------------------------
+

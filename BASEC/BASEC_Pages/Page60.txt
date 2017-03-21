@@ -1,0 +1,14 @@
+----------------------------------------------------------------------
+IDS / IPS
+----------------------------------------------------------------------
+An IDS is an intrusion detection system that monitors cached network traffic to detect malicious activity. It’s a lightweight, logging system for users to analyze which traffic is normal, which traffic is suspect, and how they want to go about handling suspicious traffic. It’s neither a live system nor a preventive system. It only logs network traffic.
+An IPS is an intrusion prevention system that blocks live, malicious traffic. It’s a heavyweight, blocking system that analyzes traffic itself, makes decisions based on preset rules, and is the evolution of an IDS. Some state an active IDS and IPS are the same and others say an IPS is actually an IDPS since there’s a discourse on whether or not an IP actually logs traffic.
+ 
+SNORT ----------------------------------------------------------------
+Snort is a well-known IDS / IPS solution that’s open-source, cross-platform, and has free and premium tiers. It’s very effective and customizable, but comes with quite a learning curve. In the past, several of their own installation guides were either lacking in specific commands or failed to include packages needed that Linux distros no longer had preinstalled. Snort is one of many tools that I recommend setting up to be automated to generate and display reports, but the only tool I advise on not having on your main system. Snort can be installed on other devices such as a Raspberry Pi and still be very effective. However, as previously mentioned, Snort may be too difficult to install. Autosnort (Ubuntu version) makes the process extremely easy with only needing input from a user in four areas: MySQL password (twice), Oink code for Snort’s IDS rules, and the interface (wireless or wired) that Snort will be sniffing). Since I only recommend wired networks, the interface should be eth0. However, if you’re adamant about using wireless networks and have completed Project Honeynet, I recommend setting up Autosnort on a RPi3 with the interface as eth1.
+
+SURICATA -------------------------------------------------------------
+Suricata is another well-known IDS / IPS solution that’s open source, cross-platform, only with a free tier. The latter means it’s not as a high-quality IDS / IPS solution as Snort, but still worth researching. While Snort has been around since 1998, Suricata has only been around since 2010, which may explain the differences in quality and features. It’s also a network system monitor that rivals Netdata but with less details. 
+
+----------------------------------------------------------------------
+

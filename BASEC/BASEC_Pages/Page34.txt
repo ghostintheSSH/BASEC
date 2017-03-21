@@ -1,0 +1,7 @@
+----------------------------------------------------------------------
+OPERATING SYSTEMS 
+----------------------------------------------------------------------
+The OS you use matters. Some are more secure than others, some are more functional, some are purpose-specific, and others are just easier to use. Since you would already know a bit about Windows, I’ll only cover some areas including why you shouldn’t use Windows as your primary OS, what AVs to use if you do use Windows for anything, what maintenance tools to use, and how to automate tasks. The latter two will be discussed throughout the chapter. As for the cons, Windows security is poor, it’s a heavily targeted OS franchise, the terminal use is lacking (but they did just add bash), Microsoft has installed myriad telemetry services, half the telemetry services can’t be uninstalled or deleted, blocking Microsoft telemetry IP addresses is not easy and involves a lot of work, it’s not free or open-source, etc. The few reasons is to use Windows over Linux are gaming support, Microsoft Office 2013+ support, Adobe Suite support, and a large array of not-universally-known apps that may work only or better on Windows than Linux like the aforementioned or Tresorit. This is why I advise still maintaining a copy of Windows for some resource-intense services like gaming or using a Windows VM on a Linux Host for app suites like Microsoft Office and Adobe Suite. 
+
+----------------------------------------------------------------------
+

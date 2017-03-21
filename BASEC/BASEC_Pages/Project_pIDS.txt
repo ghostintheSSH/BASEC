@@ -1,0 +1,15 @@
+
+PROJECT pIDS
+ 
+This project isn’t a part of PROJECT HONEYNET but for the network you actually use. 
+
+01)Purchase Raspberry Pi, microSD card, HDMI cable, and power adaptor. Preferably purchase Model 2.
+02)Download and install Ubuntu MATE on microSD card.
+03)Download and install BitTorrent Sync on host.
+04)Expand microSD card storage space and add Pokedex and Pokemon scripts to home directory.
+05)Place microSD card into Raspberry Pi, plug power adaptor into outlet and RPi, plug HDMI cable into TV and RPi, and power on TV.
+06)Run Pokedex and Pokemon scripts excluding Charizard, Cloyster, and Gastly since you won’t need SSH and firewall rules to disrupt IDS.
+07)Run Autosnort and BitTorrent Sync options.
+08)Set up Cron to run BitTorrent Sync weekly to sync IDS report.
+09)Set up Cron to run BitTorrent Sync weekly to receive IDS report on host.
+

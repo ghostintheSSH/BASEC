@@ -1,0 +1,11 @@
+
+PROJECT HONEYNET
+ 
+This project is only for if you’re adamant about using Wi-Fi over wired networks. 
+
+01)Purchase router that supports custom firmware that allows dual networks: OpenWRT, DD-WRT, Tomato, etc.
+02)Configure router with custom firmware.
+03)Configure router to use two networks.
+04)Configure first network with normal broadcast range, with WEP encryption, add an IDS, and no additional security.
+05)Configure second network with PAN range, with WPA2 encryption, and MAC filtering.
+

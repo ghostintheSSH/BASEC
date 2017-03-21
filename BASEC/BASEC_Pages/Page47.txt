@@ -1,0 +1,57 @@
+----------------------------------------------------------------------
+BROWSERS
+----------------------------------------------------------------------
+Don’t use other tools for services you can use with a browser. Don’t use a PDF reader when Chrome and Firefox can read PDFs, but do use a PDF editor for editing PDFs since Chrome and Firefox are limited to just reading. One reason why is you’re introducing unnecessary vulnerabilities by adding another piece of software you have to manage, especially with that software’s actual vulnerabilities. Another reason is resource management. If you’re already running a browser, you’re not adding much by opening a PDF in a new tab, but you are adding more resources by having to start and run a separate program while running the browser. We’re mostly on our browsers when on our computers so there’s a reason why browsers have added file supports. The same could be said for more files than just PDF. You can also watch MP4s, but not WMVs. The support can be tacky for some files and the features are definitely limited. Like with editing PDFs, if you want to watch any video file or have more features than watching, pausing, expanding to full screen, volume control, and moving to a specific time in a video, use tools like VLC or whatever video player of your choice. Look into what files your browser supports and ask yourself if you need a separate program for the same feature.
+Use EFF’s Panopticlick and don’t use browser at full screen in order to test and obfuscate your browser fingerprint. A browser fingerprint identifies you based on your settings, apps, plugins, OS, screen size, etc. It violates PERSEC, but there are several extensions that can help. The two most popular browsers are Firefox and Chrome. The real differences between the two are that Chrome is more polished with better dev use and syncing capabilities and that Firefox is more customizable, has better extensions, respects user privacy, and is lighter on resources like RAM. Which is better at security depends on your customization with extensions, otherwise Chrome is more secure out of the box. Make certain to block 3rd party cookies. If necessary, download / install a browser for single purpose. I use Chromium with several of my favorite security extensions disabled to use several sites that would otherwise be unusable or gaping vulnerabilities on my Firefox set-up. 
+
+FIREFOX --------------------------------------------------------------
+Firefox will always be my most recommended browser for anyone that cares about privacy and wants more security- and privacy-focused add-ons than the Chrome Web Store has to offer. My suggested security preferences are to set DuckDuckGo as your only search engine (privacy-based search engine that uses “!” or bangs to access other search engines) with ‘provide search suggestions’ disabled, block pop-ups, enable Tracking Protection and Do Not Track, disable Location Bar options, disable history or use custom settings and add exceptions to sites that need cookies like ProtonMail, disable everything under Data Choices, and disable updating search engines. The latter only screws with your search engine settings by resetting default to Yahoo! every update and adding all removed search engines back to Firefox. You should also open about:config to make and experiment with the configurations. Some of these changes will break sites so try to only add a few at a time and start testing:
+•browser.bookmarks.autoExportHTML;true
+•browser.cache.disk.enable;false
+•browser.cache.disk_cache_ssl;false
+•browser.cache.offline.enable;false
+•browser.formfill.enable;false
+•browser.privatebrowsing.autostart;true
+•browser.safebrowsing.enabled;true
+•datareporting.healthreport.uploadEnabled;false
+•dom.event.clipboardevents.enabled;false
+•dom.storage.enabled;false     (this will break ProtonMail)                                                        
+•geo.enabled;false
+•media.peerconnection.enabled;false
+•network.cookie.lifetimePolicy;2
+•network.cookie.thirdparty.sessionOnly;true
+•network.dns.disablePrefetch;true
+•network.http.sendRefererHeader;0 	(caution; may break sites)
+•network.http.sendSecureXSiteReferrer;false
+•network.prefetch-next;false
+•plugin.scan.plid.all;false
+•privacy.donottrackheader.enabled;true
+•privacy.donottrackheader.value*;1
+•privacy.trackingprotection.enabled;true
+•security.ssl.require_safe_negotiation;true 
+•security.ssl.treat_unsafe_negotiation_as_broken;true
+•security.ssl3.ecdhe_ecdsa_rc4_128_sha;false
+•security.ssl3.ecdhe_rsa_rc4_128_sha;false
+•security.ssl3.rsa_des_ede3_sha;false
+•security.ssl3.rsa_rc4_128_md5;false
+•security.ssl3.rsa_rc4_128_sha;false
+•toolkit.telemetry.enabled;false
+
+Next, we need to discuss browser extensions. Most of these are available on Chrome as well, but the ones that aren’t will be specified with alternatives for Chrome found later on this page under Chromium / Chrome. The recommended extensions include:
+•Disconnect – blocks ad trackers, social widgets, and other tracking elements without the potential spying concern found with rival Ghostery.
+•uBlock Origin – lightweight adblocker that allows user full control beyond AdBlock Plus that allows specific ads with the same features as ABP. This may conflict with Disconnect on Chromium / Chrome browsers.
+•HTTPS Everywhere – EFF’s best creation. It forces every site to use HTTPS (encrypted web traffic) over HTTP (unencrypted and very visible web traffic) if HTTPS support exists.
+•Privacy Badger – Another EFF creation, but that rivals Disconnect. It’s a tracker-blocking tool that needs to learn web patterns to learn which trackers to block and leaves some trackers open so 1) some sites work and 2) users have to tweak the settings for their own, personal use. Relying solely on Disconnect with no settings changes is bad. 
+•Web of Trust (WOT) – ranks sites by security reputation letting you know which sites are safe and which are not.
+•NoScript (Firefox only) – blocks all scripts from running on pages without your authorization. This is a very time-consuming extension that will require a lot of experimenting to allow the scripts needed for the site to run while everything else is blocked. It’s the extension I recommend the most, but also the extension that will have you pulling out your hair the most.
+•Private Tab (Firefox only) – this is Incognito Mode for tabs. No history or cache is saved.
+•Random Agent Spoofer (Firefox only) – spoofs your OS and browser settings to obfuscate your browser fingerprint. It’s best to set at Random (desktop) for profiles and Random for periodic changes.
+•Self-Destructing Cookies (Firefox only) – exactly what it sounds like. Any cookies saved are almost immediately deleted.
+•Flagfox (Firefox only) – lets you know which country the web server you’re accessing is based.
+•UnloadTab (Firefox only) – saves resources like RAM by suspending tabs when they haven’t been used for a minute. This is perfect if you use a lot of tabs.
+
+CHROMIUM / CHROME ----------------------------------------------------
+Chromium is my secondary choice in browser and is the open-source version of the Chrome browser. Everything of note for the Chrome browser will work on the Chromium browser. Let me explain my reasoning behind using Chromium as my secondary browser beyond Firefox having greater privacy and security customization and apps. Chromium / Chrome offers much better Google support from account integration to YouTube use. However, if you were to make Chromium / Chrome your default browser, use a Google account, and use ScriptSafe (Chromium / Chrome version of NoScript), then you would have a broken service. Google requires JavaScript functionality and ScriptSafe is the perfect replica of NoScript with customization and control. In fact, since I don’t use Chromium / Chrome as my default browser, I don’t recommend mirroring every security configuration and extension for it. I still recommend Web of Trust, HTTPS Everywhere, Disconnect, uBlock Origin, and TheGreatSuspender (UnloadTab for Chromium / Chrome but with even greater customization). Since some sites require 3rd party cookies, instead of adding the security risk to my primary browser by whitelisting such sites, I use Chromium / Chrome with 3rd party cookies enabled. This also means by use of this browser is very limited to just those whitelisted sites and I use Firefox for everything else. I also recommend adding WebRTC Block, especially if you use a VPN since WebRTC will leak your actual IP. We already covered how to do this with Firefox with the about:config changes under media.peerconneciton. As for the settings, I recommend adding DuckDuckGo as the primary search engine, keep local data until browser is quit, block plugin content by default, disable location, notification, microphone, camera access, and automatic downloads, disable prediction and reporting services, enable dangerous site protection and Do Not Track, and disable autofill and saved password functionality. Since Chromium / Chrome doesn’t allow you to not save history data without having to use Incognito mode, don’t forget to clear browsing data each time you quit the browser. 
+
+----------------------------------------------------------------------
+
