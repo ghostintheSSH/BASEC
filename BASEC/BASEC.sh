@@ -88,32 +88,12 @@ Page0() {
 	echo -e ${CyanF}"Welcome to ${YellowF}BASEC${CyanF} - ${MagentaF}SSH[ghost]${CyanF} Basic Security Guide for new, *nix users"
 	echo
 	
-	echo "PAGE: "$PAGE
+	echo -e ${white}"PAGE: "$PAGE
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page1() {
@@ -129,28 +109,8 @@ Page1() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page2() {
@@ -164,28 +124,8 @@ Page2() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page3() {
@@ -244,28 +184,8 @@ Page3() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page4() {
@@ -279,28 +199,8 @@ Page4() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page5() {
@@ -316,28 +216,8 @@ Page5() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page6() {
@@ -353,28 +233,8 @@ Page6() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page7() {
@@ -389,28 +249,8 @@ Page7() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page8() {
@@ -425,28 +265,8 @@ Page8() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 #EXIF -- downloads && installs EXIFTool
@@ -491,28 +311,8 @@ Page9() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page10() {
@@ -527,28 +327,8 @@ Page10() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 #pwd -- downloads && installs pwd.sh
@@ -590,28 +370,8 @@ Page11() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page12() {
@@ -628,28 +388,8 @@ Page12() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page13() {
@@ -664,28 +404,8 @@ Page13() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page14() {
@@ -700,28 +420,8 @@ Page14() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page15() {
@@ -736,28 +436,8 @@ Page15() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page16() {
@@ -772,28 +452,8 @@ Page16() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page17() {
@@ -808,28 +468,8 @@ Page17() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 #Veracrypt -- downloads && installs Veracrypt
@@ -865,28 +505,8 @@ Page18() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page19() {
@@ -901,28 +521,8 @@ Page19() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 #AEScrypt -- downloads && installs AES Crypt
@@ -960,28 +560,8 @@ Page20() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page21() {
@@ -996,28 +576,8 @@ Page21() {
 	echo	
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 #Metapod -- executes Metapod script
@@ -1048,28 +608,8 @@ Page22() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page23() {
@@ -1084,28 +624,8 @@ Page23() {
 	echo	
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 #Haunter -- executes Haunter script
@@ -1136,28 +656,8 @@ Page24() {
 	echo	
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 #Netdata -- downloads && installs Netdata
@@ -1193,28 +693,8 @@ Page25() {
 	echo	
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page26() {
@@ -1229,28 +709,8 @@ Page26() {
 	echo	
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 #Grimer -- disables & removes local tools not commonly use
@@ -1281,28 +741,8 @@ Page27() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 #Bleachbit -- downloads && installs Bleachbit
@@ -1341,28 +781,8 @@ Page28() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page29() {
@@ -1377,28 +797,8 @@ Page29() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 #Koffing -- disables webcam & mutes microphone
@@ -1429,28 +829,8 @@ Page30() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page31() {
@@ -1465,28 +845,8 @@ Page31() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page32() {
@@ -1501,28 +861,8 @@ Page32() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page33() {
@@ -1537,28 +877,8 @@ Page33() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page34() {
@@ -1572,28 +892,8 @@ Page34() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page35() {
@@ -1608,28 +908,8 @@ Page35() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 #Machamp -- creates new, secure partition & moves /tmp to it
@@ -1660,28 +940,8 @@ Page36() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page37() {
@@ -1696,28 +956,8 @@ Page37() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page38() {
@@ -1732,28 +972,8 @@ Page38() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page39() {
@@ -1768,28 +988,8 @@ Page39() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page40() {
@@ -1804,28 +1004,8 @@ Page40() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page41() {
@@ -1839,28 +1019,8 @@ Page41() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page42() {
@@ -1874,28 +1034,8 @@ Page42() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 #Muk -- disables & removes network tools not commonly used
@@ -1926,28 +1066,8 @@ Page43() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page44() {
@@ -1962,28 +1082,8 @@ Page44() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 #Weezing -- disables Wi-Fi & Bluetooth
@@ -2014,28 +1114,8 @@ Page45() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page46() {
@@ -2050,28 +1130,8 @@ Page46() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page47() {
@@ -2086,28 +1146,8 @@ Page47() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page48() {
@@ -2122,28 +1162,8 @@ Page48() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page49() {
@@ -2157,28 +1177,8 @@ Page49() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page50() {
@@ -2193,28 +1193,8 @@ Page50() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 #Charizard -- secures firewall
@@ -2245,28 +1225,8 @@ Page51() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page52() {
@@ -2281,28 +1241,8 @@ Page52() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 #Cloyster -- secures SSH
@@ -2333,28 +1273,8 @@ Page53() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 #Sync -- downloads && installs BitTorrent Sync
@@ -2389,28 +1309,8 @@ Page54() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page55() {
@@ -2425,28 +1325,8 @@ Page55() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 #Gastly -- filters open firewall ports
@@ -2477,28 +1357,8 @@ Page56() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 #DNS -- downloads && installs DNSCrypt
@@ -2533,28 +1393,8 @@ Page57() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page58() {
@@ -2569,28 +1409,8 @@ Page58() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 #Tor -- downloads && installs Tor
@@ -2626,28 +1446,8 @@ Page59() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page60() {
@@ -2662,28 +1462,8 @@ Page60() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page61() {
@@ -2698,28 +1478,8 @@ Page61() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page62() {
@@ -2733,28 +1493,8 @@ Page62() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page63() {
@@ -2768,28 +1508,8 @@ Page63() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page64() {
@@ -2803,28 +1523,8 @@ Page64() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page65() {
@@ -2839,28 +1539,8 @@ Page65() {
 	echo
 	echo -en $INFO ${GreenF}"Option: "${white}
 	read OPTION
-	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
-		OPTION=$((OPTION + 0))
-		Pager $OPTION
-	else
-		if [ "$OPTION" = "+" ]; then
-			((PAGE++))
-			Pager $PAGE
-		elif [ "$OPTION" = "-" ]; then
-			((PAGE--))
-			Pager $PAGE
-		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
-			Page3
-		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
-			clear
-			exit
-		else
-			echo -e ${RedF}"That's not an option. Starting next page."${white}
-			sleep 3s
-			((PAGE++))
-			Pager $PAGE
-		fi
-	fi
+	export $PAGE && export $OPTION
+	Pager $OPTION
 }
 
 Page66() {
@@ -2876,9 +1556,28 @@ Page66() {
 }
 
 Pager() {
-	for PAGE in $1; do
-		Page$1
-	done
+	if [ $OPTION -eq $OPTION 2>/dev/null ]; then
+		OPTION=$((OPTION + 0))
+		Page$OPTION
+	else
+		if [ "$OPTION" = "+" ]; then
+			((PAGE++))
+			Page$PAGE
+		elif [ "$OPTION" = "-" ]; then
+			((PAGE--))
+			Page$PAGE
+		elif [[ "$OPTION" = "t" || "$OPTION" = "T" ]]; then
+			Page3
+		elif [[ "$OPTION" = "q" || "$OPTION" = "Q" ]]; then
+			clear
+			exit
+		else
+			echo -e ${RedF}"That's not an option. Starting next page."${white}
+			sleep 3s
+			((PAGE++))
+			Page$PAGE
+		fi
+	fi
 }
 
 Colors() {
@@ -2896,5 +1595,4 @@ Colors() {
 DIR=$(pwd)
 INFO="${MagentaF}Table of Contents (${CyanF}T${MagentaF}) ${RedF}| ${MagentaF}Page Jump (${CyanF}##${MagentaF}) ${RedF}| ${MagentaF}Next Page (${CyanF}+${MagentaF}) ${RedF}| ${MagentaF}Last Page (${CyanF}-${MagentaF}) ${RedF}| ${MagentaF}Quit (${CyanF}Q${MagentaF}) ${RedF}|"
 
-#BASEC_Update
-Page3
+BASEC_Update
