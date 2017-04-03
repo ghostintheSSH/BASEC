@@ -1,9 +1,10 @@
 #!/bin/bash
 
 #This script was created so that the user can learn about security and implement it
-#simultaneously. The entire purpose of BASEC is sitting in this script whereas the quick-
-#reference and quick-use alternatives are just that: quick alternatives. BASEC is meant to
-#be an interactive security guide and BASEC.sh and the Pokemon scripts accomplish this feat.
+#simultaneously. The entire purpose of BASEC is sitting in this script whereas the
+#quick-reference and quick-use alternatives are just that: quick alternatives. BASEC is
+#meant to be an interactive security guide and BASEC.sh and the Pokemon scripts
+#accomplish this feat.
 #Script coded by SSH[ghost]
 
 

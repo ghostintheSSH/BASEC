@@ -1,8 +1,8 @@
 #!/bin/bash
 
-#This script was created as an alternative for BASEC for experienced BASEC users that want
-#the functionality of the script system without having to use the guide. It quickens system
-#hardening for new installations in a quick & organized fashion.
+#This script was created as an alternative for BASEC for experienced BASEC users that
+#want the functionality of the script system without having to use the guide. It quickens
+#system hardening for new installations in a quick & organized fashion.
 #Script coded by SSH[ghost].
 
 
